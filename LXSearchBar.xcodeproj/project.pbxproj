@@ -15,6 +15,7 @@
 		6E75FFC52193DA2F004161BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E75FFC42193DA2F004161BF /* main.m */; };
 		6E75FFCF2193DA2F004161BF /* LXSearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E75FFCE2193DA2F004161BF /* LXSearchBarTests.m */; };
 		6E75FFDA2193DA2F004161BF /* LXSearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E75FFD92193DA2F004161BF /* LXSearchBarUITests.m */; };
+		6E75FFE92193DA54004161BF /* LXSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E75FFE82193DA54004161BF /* LXSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6E75FFD52193DA2F004161BF /* LXSearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXSearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E75FFD92193DA2F004161BF /* LXSearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSearchBarUITests.m; sourceTree = "<group>"; };
 		6E75FFDB2193DA2F004161BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E75FFE72193DA53004161BF /* LXSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSearchBar.h; sourceTree = "<group>"; };
+		6E75FFE82193DA54004161BF /* LXSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSearchBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		6E75FFB42193DA2F004161BF /* LXSearchBar */ = {
 			isa = PBXGroup;
 			children = (
+				6E75FFE72193DA53004161BF /* LXSearchBar.h */,
+				6E75FFE82193DA54004161BF /* LXSearchBar.m */,
 				6E75FFB52193DA2F004161BF /* AppDelegate.h */,
 				6E75FFB62193DA2F004161BF /* AppDelegate.m */,
 				6E75FFB82193DA2F004161BF /* ViewController.h */,
@@ -265,6 +270,7 @@
 				6E75FFBA2193DA2F004161BF /* ViewController.m in Sources */,
 				6E75FFC52193DA2F004161BF /* main.m in Sources */,
 				6E75FFB72193DA2F004161BF /* AppDelegate.m in Sources */,
+				6E75FFE92193DA54004161BF /* LXSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
